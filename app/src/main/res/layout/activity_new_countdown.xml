@@ -10,13 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="evh98.com.materialcountdown.NewCountdownActivity">
 
-    <fragment
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:name="evh98.com.materialcountdown.NewCountdownFragment"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/fragment_new_countdown"
-        tools:layout="@layout/fragment_new_countdown" />
+    <include layout="@layout/fragment_new_countdown" />
 
 </RelativeLayout>

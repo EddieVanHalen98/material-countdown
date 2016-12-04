@@ -6,10 +6,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Event Name"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/tf_event_name" />
+        android:inputType="textCapWords"
+        android:hint="@string/form_name"
+        android:id="@+id/tf_form_name"
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>
