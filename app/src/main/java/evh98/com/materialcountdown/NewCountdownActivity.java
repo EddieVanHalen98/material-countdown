@@ -29,6 +29,7 @@ public class NewCountdownActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.menu_close:
+                finish();
                 return true;
             case R.id.menu_save:
                 return true;
