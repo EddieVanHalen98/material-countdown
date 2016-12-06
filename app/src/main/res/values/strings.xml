@@ -17,7 +17,7 @@
     <string name="form_name">Name</string>
     <string name="form_date">Date</string>
     <string name="form_time">Time</string>
+    <string name="form_color">Colour</string>
     <string name="form_icon">Icon</string>
-    <string name="form_finish">Finish</string>
 
 </resources>
