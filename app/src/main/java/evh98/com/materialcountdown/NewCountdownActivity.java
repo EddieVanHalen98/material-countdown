@@ -46,4 +46,8 @@ public class NewCountdownActivity extends AppCompatActivity {
     public void onFormTimeClick(View view) {
 
     }
+
+    public void onFormColorClick(View view) {
+
+    }
 }

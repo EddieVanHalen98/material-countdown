@@ -10,7 +10,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginStart="16dp"
         app:srcCompat="@drawable/icon_clock"
         android:layout_alignBottom="@+id/b_form_date"
@@ -50,19 +49,36 @@
         android:onClick="onFormTimeClick" />
 
     <View
+        android:id="@+id/divider_form_1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/colorDivider"
         android:layout_below="@id/b_form_date" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/b_form_color"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        app:srcCompat="@drawable/icon_color"
+        android:id="@+id/icon_form_circle"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_below="@id/b_form_date"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@id/divider_form_1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/b_form_color"
+        android:background="@android:color/transparent"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@+id/icon_form_circle"
+        android:layout_below="@id/divider_form_1"
         android:text="@string/form_color"
         android:onClick="onFormColorClick" />
 
